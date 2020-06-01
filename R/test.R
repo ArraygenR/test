@@ -1,6 +1,7 @@
 # for testing its genarted
-library(reticulate)
-call_python_code = function(){
+
+callcode = function(){
+  library(reticulate)
   source_python("Python/feature_Selection1.py")
   test()
 
